@@ -1,0 +1,5 @@
+# Local training / precomputation only (never installed in the Space image).
+# Install a CUDA build of torch/torchvision matching your GPU first, then:
+-r requirements.txt
+diffprivlib==0.6.6
+opencv-python-headless  # GRAPHITE black-box attack (precomputed offline)

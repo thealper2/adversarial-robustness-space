@@ -1,0 +1,9 @@
+.git
+artifacts
+logs
+training
+tests
+**/__pycache__
+*.pyc
+.venv
+.claude

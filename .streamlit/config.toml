@@ -1,0 +1,20 @@
+[server]
+headless = true
+port = 7860
+fileWatcherType = "none"
+runOnSave = false
+enableXsrfProtection = true
+maxUploadSize = 1
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"
+showErrorDetails = "none"
+
+[runner]
+magicEnabled = false
+
+[theme]
+primaryColor = "#c2410c"

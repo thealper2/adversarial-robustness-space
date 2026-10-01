@@ -1,0 +1,15 @@
+# Runtime dependencies of the Space (CPU only). Versions match the local training environment so
+# that safetensors / skops artifacts and ART behaviour are identical.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.11.0+cpu
+torchvision==0.26.0+cpu
+adversarial-robustness-toolbox==1.20.1
+numpy==2.1.3
+scipy==1.17.1
+scikit-learn==1.8.0
+streamlit==1.54.0
+safetensors==0.8.0
+skops==0.16.0
+huggingface_hub==1.32.0
+# Only for the Gaussian-process (HCLU) experiment.
+GPy==1.14.2
